@@ -1,0 +1,59 @@
+// import React, { Component } from 'react'
+
+// export default class App extends Component {
+// constructor(){
+//   super()
+//   this.state={msg:"hellooo",color:"red",bgcolor:"black",count:0}
+// }
+// clicked(){
+//   this.state({msg:"Byeee"})
+// }
+// color(){
+// this.setState({color:"blue"})
+// }
+// bgcolor(){
+//   this.state({bgcolor:"silver"})
+// }
+// count(){
+//   this.setState({count:this.state.count+1})
+// }
+// count2(){
+//   this.setState({count:this.state.count-1})
+// }
+//   render() {
+//     return (
+//       <div>
+//         <h1>{this.state.count}</h1>
+//         <button onClick={()=>this.count()}>+</button>
+//         <button onClick={()=>this.count2()}>-</button>
+//         <h1 style={{color:`${this.state.color}`,background:`${this.state.bgcolor}`}}></h1>
+//         <button onClick={()=>this.clicked()}>click</button>
+//         <button onClick={()=>this.color()}>Color</button>
+//         <button onClick={()=>this.bgcolor}>bgcolor</button>
+//       </div>
+
+
+//     )
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+
+.one:hover{
+    overflow-x: scroll;
+}
+.content  {
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    margin-top: 10px;
+}
+
+.content  li{
+    display: flex;
+    cursor: pointer;
+    margin: 1px 12px;
+    padding: 10px 20px;
+    transition: all .1s;
+}
+.content li:hover{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.content .active{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.content  li i{
+    font-size: 1.1rem;
+}
+.content  li p{
+    padding-left: 2rem;  
+    font-size: .9rem;
+}
+.content hr{
+    width: 99%;
+    margin-left: .8rem;
+    border: .1px solid rgba(0,0,0,0.2);
+}

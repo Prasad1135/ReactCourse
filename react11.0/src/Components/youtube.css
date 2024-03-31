@@ -1,0 +1,22 @@
+
+html::-webkit-scrollbar{
+    width: 8px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(119, 112, 112);
+    border-radius: 15px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row .content{
+    height: 91vh;
+    flex: 1 1 5rem;
+}
+.row .content2{
+    height: 91vh;
+    flex: 1 1 65rem;
+}

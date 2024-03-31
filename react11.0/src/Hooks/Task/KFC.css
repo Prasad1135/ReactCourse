@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+   height: 650px;
+   width: 300px;
+    text-align: center;
+   border-radius: 5%;
+   background-color: brown;
+}
+
+div{
+    background-color: aqua;
+    height: 700px;
+    width: 100%;
+}
+img{
+    border-radius: 20%;
+}

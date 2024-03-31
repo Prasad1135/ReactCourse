@@ -1,0 +1,69 @@
+.contentt {
+    position: relative;
+    top: 4rem;
+}
+
+.contentt .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    padding: .9rem 2%;
+}
+
+.contentt .row .card {
+    width: 25rem;
+    cursor: pointer;
+}
+
+.contentt .row .card .picture {
+    height: 14rem;
+    overflow: hidden;
+}
+
+.contentt .row .card .picture .img {
+    width: 89%;
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentt .row .card-body {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.contentt .row .card-body img {
+    height: 6vh;
+    clip-path: circle();
+}
+
+.contentt .row .card-body  .cont{
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contentt .row .card-body  .cont h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.contentt .row .card-body  .cont p{
+    font-size: 1rem;
+    color: rgb(0,0,0,0.5);
+}
+
+.contentt .row .card-body  .cont a{
+    font-size: .9rem;
+    color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
